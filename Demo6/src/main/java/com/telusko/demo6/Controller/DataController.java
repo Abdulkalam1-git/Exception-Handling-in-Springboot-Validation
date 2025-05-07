@@ -22,7 +22,7 @@ public class DataController {
         return ResponseEntity.ok(dataResponse);
     }
 
-    @GetMapping("/get")
+    @GetMapping("/getValue")
     public ResponseEntity<dataResponse<List<Data>>> getDatas() {
         dataResponse<List<Data>> dataResponse = dataService.getData();
         return ResponseEntity.ok(dataResponse);
