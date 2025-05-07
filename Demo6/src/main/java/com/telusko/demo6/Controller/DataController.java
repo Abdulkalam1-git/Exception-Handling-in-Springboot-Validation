@@ -12,7 +12,6 @@ import java.util.List;
 
 @RequestMapping("/api")
 public class DataController {
-    @Autowired
     private DataService dataService;
 
     @PostMapping("/add")
